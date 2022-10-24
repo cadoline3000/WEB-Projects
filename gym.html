@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gym.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>Deep Fitness</title>
+</head>
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/body.jpg');
+        font-family: "Audiowide", sans-serif;
+        width: auto;
+        height: 2000px;
+    }
+    .left{
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        display: inline-block;
+    }
+    .left img{
+        width: 102
+        px;
+        height: 50px;
+        filter: invert(100%);
+        padding: 8px;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        border: 2px solid white;    
+        /* position: fixed; */
+        /* left: 600px; */
+    }
+    .right{
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid white;
+    }
+    .navbar li{
+        display: inline;
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+        margin: 0px;
+    }
+    a:hover{
+        color: red;
+    }
+    .btn{
+        background-color: black;
+        color: white;
+        margin: 0px 0px;
+        padding: 16px 10px;
+        font-size: 20px;
+        font-family: "Audiowide", sans-serif;
+    }
+    .btn:hover{
+        color: red;
+        cursor: pointer;
+    }
+    .container{
+        border: 2px solid white;
+        margin-top: 90px;
+        margin-left: 30px;
+        padding: 10px;
+        width: 45%;
+        border-radius: 5px;
+        display: inline-block;
+        text-align: center;
+    }
+    .container input{
+        text-align: center;
+    }
+    .form-group input{
+        color: white;
+        font-size: 20px;
+        font-family: "Audiowide", sans-serif;
+        background-color: black;
+        display: block;
+        margin: 8px;
+    }
+
+</style>
+<body>
+    
+    <header class="header">
+        <div class="left">
+            <!-- lefet box for logo -->
+            <img src="img/logo.png" alt="logo pic">
+            <div>Deep Fitness</div>
+        </div>
+        <div class="mid">
+            <!-- mid box for navigation -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right box for buttons -->
+            <button class="btn">Mobile App</button>
+            <button class="btn">Windows App</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the gym now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your mail id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your location">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <div class="container">
+        <h1 style="font-size: 40px; margin: 11px; border: 0px;">
+            Get 30% Discount on this Diwali festival.
+            <br>Eat sweets and get the sweetness, not fat.
+        </h1>
+    </div>
+</body>
+</html>
